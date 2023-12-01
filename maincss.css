@@ -1,0 +1,245 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family:'poppins , sans-serif';
+    margin: 0;
+    padding:0 ;
+    scroll-behavior: smooth;
+}
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: max;
+  background-color: #355245;
+}
+li{
+  float: left;
+}
+
+.li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 25px 30px;
+  text-decoration: none;
+}
+
+.li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+#logPic {
+  width: 380px;
+  float:right;
+  margin-top: 65px;
+ }
+
+#ekhPic {
+    height: 380px;
+    width: 380px;
+    float:right;
+    margin-top: 10px;
+   }
+  
+
+#Pic {
+ 
+  width: 380px;
+  float:right;
+  margin-top: 45px;
+  border-radius: 10px;
+  border: 2px solid rgb(152, 150, 121);
+ }
+.A1 {
+    font-size: 80px;
+    margin-left: 60px;
+    margin-top: 80px;
+    text-align : left; 
+}
+
+.A2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    text-align : left;
+}
+.A3 {
+    margin-top: 30px;
+    color: black;
+    background-color: #355245;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 1.5em 3em;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+.A3:hover{
+    background-color: #648374;
+
+}
+.suptitl {
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 80px;
+    text-align : left; 
+}
+.value {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    text-align : left;
+}
+.gold{
+   
+    text-align : left;
+    color: rgb(152, 150, 121);
+    margin-bottom: 4px;
+    margin-top: 100px;
+    padding: 40px;
+    font-size: 40px;
+   margin-left: 30px;
+}
+.vide{
+    width: 500;
+    margin-left: 30px;
+}
+.button1{
+    background-color: #355245;
+    color: aliceblue;
+    padding: 9px;
+    border-radius:6px ;
+}
+
+.goals{
+    background-color: white;
+    width: flex;
+    border-radius: 10px;
+    border: 2px solid rgb(152, 150, 121);
+    padding: 25px;
+    margin-right: 60px;
+    margin-bottom: 70px;
+    margin-left: 60px;
+    text-align:left ;
+    color: black;
+}
+.subgoals{
+    background-color: white;
+    width: 650px;
+    border-radius: 10px;
+    border: 2px solid rgb(152, 150, 121);
+    padding: 25px;
+    margin-right: 60px;
+    margin-bottom: 70px;
+    margin-left: 60px;
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+    height: 200px;
+   
+}
+
+.li1{
+    margin: 0;
+}
+
+table{
+    width: flex;
+    height: 200px;
+    margin-left: 40px;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+th{
+    background-color: #648374;
+    color: azure;
+    text-transform: capitalize;
+    padding:10px 10px ; 
+}
+
+td{
+    background-color: #afc1b6;
+    color: #101916;
+    text-align: left;
+    padding: 5px;
+    margin: 29px;
+}
+
+.footer{
+    background-color: black;
+    color: azure;
+    padding: 2em;
+    display: flex;
+}
+
+.footer-mail{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-mail span{
+    color: rgb(116, 153, 153);
+}
+
+
+@media screen and (max-width:1024px) { #dl{width: 100%;
+font-size: 16px;
+display: block;} }
+@media screen and (max-width:768px) { #dl{width: 100%; font-size: 16px; display: block;}}
+@media screen and (max-width:640px) {
+    .li a{display: block;
+}
+    #dl{
+    width: 100%;
+    font-size: 16px;
+    display: block;}}
+@media screen and (max-width:480px) {#dl{width: 100%;
+    font-size: 14px;
+    display: block;}}
+@media screen and (max-width:320px) {
+    .li a{
+        display:inline-block;
+        font-size: 10px;
+    }
+     #dl{width: 100%;
+    font-size: 12px;
+    display: block; }
+    .subgoals{width:100%;
+        text-align: left;
+        padding: 15px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        margin-top: 25px;}
+}
+@media(max-width:455px){
+.div1{font-size: 20px;}}
+
+@media only screen and (max-width:400px){
+    table{
+     margin-left: 10px;
+    }
+    h3{
+     height:350px;
+     width: 250px;
+     margin-left: 40px;
+    }
+    #ekhPic {
+     height: 250px;
+     width: 250px;
+     margin-left: 5px;
+     margin-right:80px;
+    }
+
+}
